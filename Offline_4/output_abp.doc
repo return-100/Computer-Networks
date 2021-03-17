@@ -1,0 +1,280 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:
+EVENT time: 69.657104,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt0
+
+EVENT time: 75.066002,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 79.824150,  type: 2, fromlayer3  entity: 0
+----->>> (A) received NAK
+
+EVENT time: 119.657104,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 129.185242,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 138.888474,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 196.618607,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt1
+
+EVENT time: 206.407043,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being lost
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 246.618607,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 253.571976,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt1 corrupted
+
+EVENT time: 254.585678,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+
+EVENT time: 386.687073,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt0
+
+EVENT time: 396.138000,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 397.354828,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 531.514099,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+----->>> (A) has sent pkt1
+
+EVENT time: 541.491089,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt1 corrupted
+
+EVENT time: 549.958191,  type: 2, fromlayer3  entity: 0
+----->>> (A) received NAK
+
+EVENT time: 581.514099,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 584.797119,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 587.202393,  type: 2, fromlayer3  entity: 0
+----->>> (A) received NAK
+
+EVENT time: 631.514099,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 632.873840,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt1 corrupted
+
+EVENT time: 640.180786,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+
+EVENT time: 641.553955,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt0
+
+EVENT time: 650.496704,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being lost
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 656.035583,  type: 1, fromlayer5  entity: 0
+----->>> (A) doesnt receive previous ACK
+
+EVENT time: 691.553955,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 695.256836,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being lost
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 741.553955,  type: 0, timerinterrupt   entity: 0
+          TOLAYER3: packet being corrupted
+
+EVENT time: 741.747437,  type: 1, fromlayer5  entity: 0
+----->>> (A) doesnt receive previous ACK
+
+EVENT time: 743.317566,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt999999 corrupted
+
+EVENT time: 749.552917,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 873.934937,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt1
+
+EVENT time: 881.868103,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 883.810547,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+
+EVENT time: 982.617432,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt0
+
+EVENT time: 988.287231,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 996.528870,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 1003.555603,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt1
+
+EVENT time: 1007.925110,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 1017.259888,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+
+EVENT time: 1198.428101,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+----->>> (A) has sent pkt0
+
+EVENT time: 1201.380493,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 1208.602417,  type: 2, fromlayer3  entity: 0
+----->>> (A) received NAK
+
+EVENT time: 1248.428101,  type: 0, timerinterrupt   entity: 0
+          TOLAYER3: packet being lost
+
+EVENT time: 1298.428101,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 1307.651245,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 1315.734009,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 1367.170288,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt1
+
+EVENT time: 1368.940186,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 1372.201782,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+
+EVENT time: 1438.735229,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt0
+
+EVENT time: 1442.304199,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 1443.350220,  type: 2, fromlayer3  entity: 0
+----->>> (A) received NAK
+
+EVENT time: 1488.735229,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 1492.996826,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being lost
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 1538.735229,  type: 0, timerinterrupt   entity: 0
+          TOLAYER3: packet being corrupted
+
+EVENT time: 1547.580688,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 1553.711670,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 1608.566162,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt1
+
+EVENT time: 1617.913696,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 1620.525391,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+
+EVENT time: 1799.125000,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+----->>> (A) has sent pkt0
+
+EVENT time: 1806.851929,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 1814.755981,  type: 2, fromlayer3  entity: 0
+----->>> (A) received NAK
+
+EVENT time: 1849.125000,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 1851.064087,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being lost
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 1899.125000,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 1908.273926,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 1911.549438,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 1925.757446,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt1
+
+EVENT time: 1928.287598,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 1935.589966,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+
+EVENT time: 1993.897583,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+----->>> (A) has sent pkt0
+
+EVENT time: 1996.372437,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being lost
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 2043.897583,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 2048.500977,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 2051.090088,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 2152.357910,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being lost
+----->>> (A) has sent pkt1
+
+EVENT time: 2202.357910,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 2210.562500,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 2220.294922,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+
+EVENT time: 2319.575195,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt0
+
+EVENT time: 2324.827393,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+----->>> (B) has received pkt0 successfully
+
+EVENT time: 2332.816650,  type: 2, fromlayer3  entity: 0
+----->>> (A) received NAK
+
+EVENT time: 2369.575195,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 2376.393066,  type: 2, fromlayer3  entity: 1
+----->>> (B) has got pkt0 corrupted
+
+EVENT time: 2378.813477,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt0
+
+EVENT time: 2405.654541,  type: 1, fromlayer5  entity: 0
+----->>> (A) has sent pkt1
+
+EVENT time: 2412.524414,  type: 2, fromlayer3  entity: 1
+----->>> (B) has received pkt1 successfully
+
+EVENT time: 2420.242432,  type: 2, fromlayer3  entity: 0
+----->>> (A) got ACK of pkt1
+ Simulator terminated at time 2420.242432
+ after sending 20 msgs from layer5
